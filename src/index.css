@@ -5,9 +5,7 @@
 }
 
 :root {
-background: linear-gradient(
-  90deg, #FCFF9E 0%, #C67700 100%);
-  );
+  background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
 }
 
 html {
