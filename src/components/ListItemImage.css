@@ -1,0 +1,6 @@
+.listItemImage {
+  padding-left: 10px;
+  max-width: 5em;
+  max-height: 5em;
+  object-fit: contain;
+}

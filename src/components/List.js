@@ -1,7 +1,7 @@
 import React from "react";
 
 function List({ children }) {
-  return <nav>{children}</nav>;
+  return <nav className="list">{children}</nav>;
 }
 
 export default List;
