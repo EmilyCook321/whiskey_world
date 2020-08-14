@@ -1,24 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import logoSrc from "./assets/WHISKEYMANIACS.png";
+import React, { useState, useEffect } from "react";
+import WhiskeyList from "./components/WhiskeyList";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="app">
+      <header className="header">
+        <h1>Whiskey World</h1>
+        <img className="app__logo" src={logoSrc} alt="Whisky World App" />
+        <input className="input" placeholder="Get your whiskey..." />
       </header>
+      <main className="main">
+        <WhiskeyList></WhiskeyList>
+      </main>
+      <footer>Footer</footer>
     </div>
   );
 }
